@@ -1,0 +1,131 @@
+html{
+  box-sizing:border-box;
+}
+*,*::before,*::after{
+  box-sizing:inherit;
+}
+  body{
+    background-color:#E9F4FF;
+    font-size:13px;
+    margin:80px 20px;
+    font-family: 'Barlow Semi Condensed', sans-serif;
+  }
+  .box{
+    padding:30px;
+    border-radius:5px;
+    margin:15px;
+    font-size:1.1rem;
+    box-shadow: 0px 1px 47px 7px rgba(0,0,0,0.26);
+  }
+  .testimonial-container{
+    display:flex;
+  }
+  #text-1{
+    background-color: #7541c8;
+    color:rgb(255,255,255,.6);
+  }
+  #text-2{
+    background-color:hsl(217, 19%, 35%);
+    color:rgb(255,255,255,.6);
+  }
+  #text-3{
+    background-color:White;
+    color:rgb(0,0,0,.6);
+  }
+  #text-4{
+    background-color:hsl(219, 29%, 14%);
+    color:rgb(255,255,255,.6);
+
+  }
+  #text-5{
+    background-color:White;
+    color:rgb(0,0,0,.6);
+    
+  }
+  h4,h5{
+    margin:0;
+  }
+  .user{
+    display:flex;
+    justify-content:flex-start;
+    align-items:center;
+    margin:0
+  }
+ .padd-img{
+    margin:0 10px 0 0;
+  }
+  .light{
+    color: hsl(0, 0%, 100%);
+  }
+  .dark{
+    color: hsl(217, 19%, 35%);
+  }
+  h2,.user{
+    padding-bottom:20px;
+  }
+  .purple-active{
+    background-color: #ef36ef;
+    border-radius: 20px;
+    width:40px;
+    height:40px;
+    border:2px solid #ef36ef;
+    overflow: hidden;
+  }
+  .gray-inactive{
+    background-color: hsl(0, 0%, 81%);
+    border-radius: 20px;
+    width:40px;
+    height:40px;
+    border:2px solid hsl(0, 0%, 81%);
+    overflow: hidden;
+  }
+  
+  .Verified-gray {
+    color: hsl(0, 0%, 81%);
+  }
+  #text-1 #quote{
+    position:absolute;
+    right:15%;
+    z-index:0;
+    width:100px;
+    heighT:100px;
+    margin:0;
+  }
+  #text-1 .user,
+  #text-1 h2{
+    position:relative;
+    z-index:2;
+  }
+  #text-1{
+    position:relative;
+    z-index:1;
+  }
+  img{
+    z-index:2;
+  }
+  @media (min-width:576px){
+    body{
+      margin:100px 50px;
+    }
+    #testimonial-container{
+        display: flex;    
+    } 
+    #left-container{
+      flex-basis: 75%;
+   }
+    #right-container{
+      flex-basis:25%;
+    }
+   #top-left-text{
+    display: flex;
+   }
+   #bottom-left-text{
+    display: flex;
+   }
+   #text-5{
+    heighT:97%;
+   }
+    p,h2{
+      margin:0;
+    }
+  }
